@@ -50,6 +50,7 @@ Cкачать - https://www.jetbrains.com/resharper/
 ---
 ReSharper помогает использовать структуру данных до того, как они формально определены.   
 Например, создадим класс Person и дадим человеку имя и возраст.
+![Image alt](https://github.com/MAARUUU/PC/raw/main/Image/pc1.png)
 ![title](Image/pc1.png)
 Наведя курсор мыши на класс Person и нажав Alt+Enter, ReSharper помогает создать класс без особых усилий.  
 ![title](Image/pc2.png)  
