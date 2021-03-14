@@ -61,8 +61,8 @@ ReSharper помогает обнаруживать ошибки еще до з�
 ![title](/Image/pc4.PNG?raw=true "Optional Title")   ![title](/Image/pc5.PNG?raw=true "Optional Title") 
  Теперь откроем любой проект, в моем случае это будет Chat-Bot.
 Обратим внимание на метод SaveBotToolStripMenuItem_Click, который загружает историю бота. ReSharper подсвечивает создание экземпляра класса SaveFileDialog     
-![title](Image/pc7.png)     
-![title](Image/pc8.png)  
+![title](/Image/pc7.PNG?raw=true "Optional Title")    
+![title](/Image/pc8.PNG?raw=true "Optional Title") 
 
 
 ---
