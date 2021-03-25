@@ -49,24 +49,25 @@ Cкачать - https://www.jetbrains.com/resharper/
 
 ---
 ReSharper помогает использовать структуру данных до того, как они формально определены.   
-Например, создадим класс Person и дадим человеку имя и возраст.
-![title](Image/pc1.png)
-Наведя курсор мыши на класс Person и нажав Alt+Enter, ReSharper помогает создать класс без особых усилий.  
-![title](Image/pc2.png)  
-Также мы поступаем и со свойствами.  
-![title](Image/pc3.png)  
-ReSharper помогает обнаруживать ошибки еще до запуска кода. Одним из примеров является анализатор проверки орфографии. Скажем, вы создаете статический метод и случайно написали слово static как statc. Вы сможете увидеть эту орфографическую ошибку еще до запуска своего кода, потому что ReSharper выдаст предупреждение в вашем коде при вводе текста еще до завершения набора строки. Другими словами, вам не нужно производить сборку кода, чтобы узнать, что вы допустили ошибку.  
-![title](Image/pc6.png)  
-Либо вы написали метод, который начинается на строчную букву, то ReSharper подскажет вам, что его нужно исправить и предложит свои решения.  
-![title](Image/pc4.png) ![title](Image/pc5.png)   
-Теперь откроем любой проект, в моем случае это будет Chat-Bot.
+Например, создадим класс Person и дадим человеку имя и возраст.  
+![title](/Image/pc1.PNG?raw=true "Optional Title")     
+Наведя курсор мыши на класс Person и нажав Alt+Enter, ReSharper помогает создать класс без особых усилий.     
+![title](/Image/pc2.PNG?raw=true "Optional Title")    
+Также мы поступаем и со свойствами.        
+![title](/Image/pc3.PNG?raw=true "Optional Title")    
+ReSharper помогает обнаруживать ошибки еще до запуска кода. Одним из примеров является анализатор проверки орфографии. Скажем, вы создаете статический метод и случайно написали слово static как statc. Вы сможете увидеть эту орфографическую ошибку еще до запуска своего кода, потому что ReSharper выдаст предупреждение в вашем коде при вводе текста еще до завершения набора строки. Другими словами, вам не нужно производить сборку кода, чтобы узнать, что вы допустили ошибку.               
+![title](/Image/pc6.PNG?raw=true "Optional Title")    
+Либо вы написали метод, который начинается на строчную букву, то ReSharper подскажет вам, что его нужно исправить и предложит свои решения.    
+![title](/Image/pc4.PNG?raw=true "Optional Title")   ![title](/Image/pc5.PNG?raw=true "Optional Title") 
+ Теперь откроем любой проект, в моем случае это будет Chat-Bot.
 Обратим внимание на метод SaveBotToolStripMenuItem_Click, который загружает историю бота. ReSharper подсвечивает создание экземпляра класса SaveFileDialog     
-![title](Image/pc7.png)     
-![title](Image/pc8.png)     
+![title](/Image/pc7.PNG?raw=true "Optional Title")    
+![title](/Image/pc8.PNG?raw=true "Optional Title") 
 
+
+---
 ### Источники:
-- https://medium.com/nuances-of-programming/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D1%87%D0%B5%D0%BA-%D0%BB%D0%B8%D1%81%D1%82%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B8%D0%BD%D1%81%D0%BF%D0%B5%D0%BA%D1%86%D0%B8%D0%B8-%D0%BA%D0%BE%D0%B4%D0%B0-8e054c869ea8
-- https://multiurok.ru/files/riev-iuirovaniie-proghrammnogho-koda.html
-- https://itnan.ru/post.php?c=1&p=467293
-- https://livetyping.com/ru/blog/chto-takoe-kachestvenny-kod-i-code-review         
+- https://www.viva64.com/ru/t/0046/ 
+- https://habr.com/ru/company/pvs-studio/blog/328354/
+- https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%BA%D0%BE%D0%B4%D0%B0        
 ---
